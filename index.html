@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para ti, con flores amarillas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="experience">
+    <section class="letter-screen" id="letter-screen" aria-labelledby="letter-title">
+      <div class="stars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="letter-intro">
+        <p class="tiny-label">Para alguien muy especial</p>
+        <h1 id="letter-title">Tengo algo<br><em>para ti</em></h1>
+        <p class="intro-copy">Hay regalos que empiezan con una pequeña sorpresa.</p>
+      </div>
+      <button class="letter-button" id="open-letter" type="button" aria-label="Abrir la carta">
+        <span class="envelope">
+          <span class="envelope-back"></span>
+          <span class="envelope-paper">Haz clic para abrir</span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-front"></span>
+          <span class="seal">✦</span>
+        </span>
+        <span class="open-label">Abrir mi carta <b aria-hidden="true">↗</b></span>
+      </button>
+      <p class="date-label">Día de las Flores Amarillas · 21 de septiembre</p>
+    </section>
+
+    <section class="garden-screen" id="garden-screen" aria-labelledby="garden-title" hidden>
+      <div class="garden-sky" aria-hidden="true"></div>
+      <div class="garden-mist" aria-hidden="true"></div>
+      <div class="garden-content">
+        <div class="photo-frame">
+          <div class="photo" role="img" aria-label="Fotografía especial para personalizar"></div>
+          <p>un recuerdo para guardar</p>
+        </div>
+        <p class="garden-label">Feliz día de las flores amarillas</p>
+        <h2 id="garden-title">Para ti, que haces<br>florecer mis días</h2>
+        <p class="love-message">Que nunca te falten motivos para sonreír,<br>ni flores que crezcan a tu alrededor.</p>
+        <p class="i-love-you">TE <em>AMO</em></p>
+      </div>
+      <div class="soil" aria-hidden="true"></div>
+      <div class="flowers" aria-label="Flores amarillas creciendo">
+        <div class="flower flower-a"><div class="stem"></div><div class="leaf leaf-left"></div><div class="leaf leaf-right"></div><div class="head"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+        <div class="flower flower-b"><div class="stem"></div><div class="leaf leaf-left"></div><div class="leaf leaf-right"></div><div class="head"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+        <div class="flower flower-c"><div class="stem"></div><div class="leaf leaf-left"></div><div class="leaf leaf-right"></div><div class="head"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+        <div class="flower flower-d"><div class="stem"></div><div class="leaf leaf-left"></div><div class="leaf leaf-right"></div><div class="head"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+        <div class="flower flower-e"><div class="stem"></div><div class="leaf leaf-left"></div><div class="leaf leaf-right"></div><div class="head"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+      </div>
+      <button class="restart" id="restart" type="button">Volver a abrir la carta <span aria-hidden="true">↗</span></button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
